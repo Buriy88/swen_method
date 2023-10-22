@@ -64,8 +64,8 @@ public class Main
     public static void main(String[] args)
     {
         Function<Double, Double> f = x -> Math.pow((-5-x)/3-1.4,2);
-        double x= 5;
-        double step=0.01;
+        double x= 10;
+        double step=0.1;
         System.out.println("Початковий крок:"+step);
         SvenMethod(f,x,step);
 
